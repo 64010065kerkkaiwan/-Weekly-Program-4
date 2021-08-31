@@ -18,7 +18,7 @@ int main()
        {
            scanf("%d",&b[i][j]);
        }
-   
+    printf("\n");
     for(i = 0; i < r; i++)
         for(j = 0; j < c; j++)
         {
