@@ -13,7 +13,6 @@ int main()
        {
            cin >> a[i][j];
        }
-
     for(i = 0; i < r; i++)
         for(j = 0; j < c; j++)
        {
@@ -22,7 +21,7 @@ int main()
     for(i = 0; i < r; i++)
         for(j = 0; j < c; j++)
             sum[i][j] = a[i][j] + b[i][j];
-
+    cout << endl;
     for(i = 0; i < r; i++)
         for(j = 0; j < c; j++)
         {
